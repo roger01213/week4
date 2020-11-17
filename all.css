@@ -1,0 +1,786 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+img{
+    max-width:100%;
+    height:auto; 
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+	  }
+
+/*容器*/
+.container{
+	max-width: 1110px;
+    margin: 0 auto;
+}
+
+
+.d-n{
+	display: none;
+}
+
+.mune-test{
+height: 100px;
+
+}
+
+
+/* 字體大小 行高 */
+
+.f-16{
+	font: 16px;
+}
+.lh-24{
+	line-height: 24px;
+}
+
+.f-14{
+	font: 16px;
+}
+.lh-21{
+	line-height: 21px;
+}
+
+/* margin padding */
+
+/* m-r */
+.mr-1{
+	margin-right: 14px;
+}
+.mr-2{
+	margin-right: 20px;
+}
+.mr-3{
+	margin-right: 24px;
+}
+.mr-4{
+	margin-right: 64px;
+}
+.mr-5{
+	margin-right: 48px;
+}
+.mr-6{
+	margin-right: 7px;
+}
+.mr-7{
+	margin-right: 12px;
+}
+ .mr-8{
+	margin-right: 20px;
+} 
+
+
+/* m-b */
+.mb-1{
+	margin-bottom: 32px;
+}
+
+.mb-2{
+	margin-bottom: 16px;
+}
+
+.mb-3{
+	margin-bottom: 36px;
+}
+
+.mb-4{
+	margin-bottom: 40px;
+}
+.mb-5{
+	margin-bottom: 8px;
+}
+/* m-l */
+.ml-1{
+	margin-left: 95px;
+}
+
+
+
+/* p-t */
+.pt-1{
+	padding-top: 24px;
+}
+.pt-2{
+	padding-top: 40px;
+}
+
+.pt-3{
+	padding-top: 48px;
+}
+.pt-4{
+	padding-top: 80px;
+}
+.pt-5{
+	padding-top: 16px;	
+}
+.pt-6{
+	padding-top: 12px;
+}
+/* p-b */
+
+.pb-1{
+	padding-bottom: 22px;
+}
+
+.pb-2{
+	padding-bottom: 28px;
+}
+
+.pb-3{
+	padding-bottom: 40px;
+}
+.pb-4{
+	padding-bottom: 304px;
+}
+.pb-5{
+	padding-bottom: 12px;
+}
+/* p-l */
+.pl-1{
+	padding-left: 88px;
+}
+.pl-2{
+	padding-left: 24px;
+}
+.pl-3{
+	padding-left: 12px;
+}
+/*------------------------------------------------------------------------------------------------ */
+
+.header{
+	background: #AA0601;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+		
+}
+
+.header img:hover{
+	opacity: 0.5;
+}
+
+.header li a{
+	display: block;
+	color: white;
+	text-decoration:none;
+	
+
+}
+
+.fs-36-54{
+	font-size: 36px;
+	line-height: 54px;
+	color: white;
+	text-decoration:none;
+	
+}
+
+.header li a:hover{
+	opacity: 0.5;
+}
+
+.header ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+.footer{
+	background: #AA0601;
+	
+}
+
+.footer-cact ul{
+	display:flex;
+
+}
+
+.footer-cact  li a{ 
+	display: block;
+	color: white;
+	text-decoration:none;
+	
+}
+.footer-cact  li a:hover{
+	opacity:0.5 ;
+}
+
+.footer-logo ul{
+	display:flex;
+}
+
+.foot-cont{
+	display:flex;
+	justify-content:space-between;
+	border-bottom:1px solid #ccc; 
+}
+
+.footer-logo{
+	display:flex;
+	justify-content:space-between;
+	
+}
+
+
+.footer-logo a:hover{
+	opacity: 0.5 ;	
+
+}
+
+ .footer-cact img:hover{
+	opacity:0.5 ;
+} 
+
+.foot-end{
+	display:flex;
+	justify-content:space-between; 
+	color:white;
+}
+
+.foot-end img:hover{
+opacity: 0.5 ;
+
+}
+
+
+.foot-end a{
+	color: white;
+	text-decoration:none;
+}
+
+.foot-end-logo{
+	width: 90%;
+	display:flex;
+	justify-content:space-between; 
+	
+
+}
+
+.foot-end-logo ul{
+	 width: 190px; 
+	display:flex;
+	 justify-content: space-between;
+	
+}
+
+.foot-end-logo ul li a{
+	display: block;
+	
+}
+
+.foot-end-logo ul li a:hover{
+	opacity: 0.5 ;
+}
+
+/* 內容 */
+.glass-img{
+	height: auto;
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/qa.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.glass-img h1{
+	font-size: 48px;
+	line-height: 80px;
+}
+
+.glass-img-que ul{
+	display: flex;
+	align-items: center;
+	
+}
+
+.glass-img-que{
+	height: 304px;
+	display: flex;
+	flex-direction: column-reverse;
+		
+}
+
+
+.glass-img-que img{
+	width: 70%;
+}
+
+.glass-qusetion p{
+	width: 920px;
+	text-align:left;
+}
+
+.glass-qusetion h2{
+	font-size: 32px;
+	line-height: 63px;
+}
+.glass-qusetion a{
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.glass-qusetion p{
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+
+
+/* location  */
+.loc-select{
+	width: 445px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.loc-select h3{
+	font-size: 24px;
+	line-height:  30px;
+}
+
+.loc-select select {
+	width: 320px;
+	height: 45px;
+}
+
+.loc-tpe-img-1{
+	width: 350px;
+	height: 224px; 
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week4/locate1.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid #ccc;
+
+}
+
+.loc-tpe-img-2{
+	width: 350px;
+	height: 224px; 
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week4/locate2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid #ccc;
+
+}
+
+.loc-tpe-img-3{
+	width: 350px;
+	height: 224px; 
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week4/locate3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid #ccc;
+
+}
+
+.loc-tpe-img-4{
+	width: 350px;
+	height: 224px; 
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week4/locate4.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid #ccc;
+
+}
+
+.loc-tpe-img-5{
+	width: 350px;
+	height: 224px; 
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week4/locate5.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid #ccc;
+
+}
+.tpe-list{
+	width: 350px;
+	border: 1px solid #ccc;
+	
+}
+
+.tpe-list h4{
+	font-size: 24px;
+	line-height: 36px;
+	border-bottom: 1px solid #ccc;
+}
+
+.tpe-list a{
+	font-size: 20px;
+	line-height: 30px;
+}
+.tpe-list ul{
+	width: 100%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+
+.wl-2{
+	width: 264px;
+	height:60px;
+	
+	
+}
+
+.loc-detail a{
+	display: block;
+	background: #000;
+	color: white;
+	text-align: center;
+	width: 350px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 19px;
+	line-height: 26px;
+	text-decoration: none;
+	border: 1px solid rgb(14, 0, 0);
+}
+
+.loc-detail a:hover {
+	opacity: 0.5;
+}
+
+
+.loc-img{
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+
+
+/* 平板 */
+@media (max-width: 768px) {
+
+	.header{
+		padding-left: 39px;
+	}
+	.header li a{
+		margin-right: 40;
+	}
+
+
+	 .foot-end img{
+		display: none;
+	} 
+	
+	.footer{
+		padding-top: 40px;
+	
+	}
+
+	.container{
+		max-width: 690px;
+		}
+
+	.footer a{
+		margin-right: 40px;
+	} 
+
+	.footer-cact ul{
+		margin-right: 24px;
+	}
+
+	
+	.footer-logo{
+		width: 25%;
+	}
+
+	.f-l-t1{
+		font-size: 20px;
+		line-height: 30px;
+	}
+		
+	.foot-end {
+		 flex-direction: column; 
+		
+	}
+
+
+	.foot-end-logo{
+		width: 100%;
+		
+	
+	}
+
+
+.w70{
+	width: 80px;
+}
+.w56{
+	width: 70px;
+}
+
+.glass-qusetion{
+	padding-top: 40px;
+	padding-bottom: 104px;
+}
+
+.glass-qusetion p{
+	width: 630px;
+}
+
+.m-l-t-1{
+	margin-left: 60px;
+}	
+
+.glass-img-que h1{
+	font-size: 48px;
+}
+
+.loc-select h3{
+	font-size: 16px;
+}
+
+.loc-select select {
+	width: 237px;
+	height: 45px;
+}
+
+
+.loc-tpe-img-1 ,.loc-tpe-img-2,.loc-tpe-img-3,.loc-tpe-img-4,.loc-tpe-img-5  ,.loc-select,.tpe-list ,.loc-detail a{
+	width: 320px;
+}
+
+.m-r-t-1{
+	margin-right: 20px;
+}
+
+.m-b-t-1{
+	margin-bottom: 20px;
+}
+
+.p-b-t-1{
+	padding-bottom: 104px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 手機 */
+
+@media (max-width: 414px) {
+	
+
+	.header{
+		flex-direction: column;
+		padding-left: 0px;
+		padding-right:0px ; 
+	}
+	
+	.header li{
+		border: 1px solid #ccc; 
+		width: 49.45%;
+		text-align:center;
+		
+	}
+	
+
+	.header li a{
+		margin-right: 0;
+	}
+
+	.header ul{
+		width: 100%;	
+		
+
+	
+	}
+	
+	.p-t-10{
+		padding-top: 10px;
+	}
+	.p-b-10{
+		padding-bottom: 10px;
+	}
+
+
+
+
+	.foot-end img{
+		display: block;
+	} 
+	
+
+	.footer-cact ul{
+		display: none;
+
+	}
+
+	.foot-end-logo{
+		flex-direction: column;
+	}
+	.foot-end-logo ul{
+		flex-direction: column;
+		
+	}
+
+	.foot-end {
+		flex-direction:row-reverse;
+		 align-items: flex-end; 
+	   
+   }
+
+   .footer-cact img{
+	   width: 10%;
+   }
+
+   .foot-end img{
+	   width: 15%;
+   }
+
+   .footer-logo{
+	width: 40%;
+}
+
+   .footer-logo img{
+	width: 60%;   
+
+   }
+
+   .fs-lh-s{
+	font-size: 16px;
+	line-height: 30px;
+   }
+  
+   .mr-s-1{
+	   margin-right: 20px;
+   }
+   .f14{
+	   font-size: 14px;
+	   line-height: 21px;
+   }
+   .foot-end img{
+	   width: 10%;
+   }
+
+   .glass-qusetion h2{
+	   font-size: 20px;
+   }
+   .glass-qusetion a{
+	   font-size: 16px;
+	   line-height: 24px;
+   }
+
+   .glass-qusetion p{
+	width: 345px;
+	font-size: 14px;
+	line-height: 21px;
+	
+}
+	.ml-s-0 {
+		margin-left: 0;
+	}
+   .glass-qusetion{
+	padding-top: 24px;
+	padding-bottom: 56x;
+	padding-left: 15px;
+
+}
+	.d-s-n{
+		display: none;
+	}
+	
+	.d-n{
+		display: block;
+	}
+
+
+
+
+
+	 .container{
+		padding-left: 15px;
+		padding-right: 15px;
+		  
+	} 
+
+
+	 .loc-tpe-img-1 ,.loc-tpe-img-2,.loc-tpe-img-3,.loc-tpe-img-4,.loc-tpe-img-5  ,.loc-select,.tpe-list ,.loc-detail a{
+		width: 100%;
+	
+	} 
+
+	.m-r-s-0{
+		margin-right: 0;
+	}
+
+	.m-l-s-0{
+		margin-left: 0;
+	}
+
+	.m-b-s-1{
+		margin-bottom: 16px;
+	}
+
+	.p-b-s-1{
+		padding-bottom: 56px;
+	}
+
+  }
+
